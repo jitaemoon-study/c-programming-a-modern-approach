@@ -1,0 +1,21 @@
+1. Selection statements: if, switch
+2. Iteration statements: while, do, for
+3. Jump statements: break, continue, goto
+4. Others: Compound statement, null statement
+
+In C a comparison such as i < j yields an integer. 0(false), 1(true)
+Logial operators produce either 0 or 1 their result.
+
+# Compound Statements
+{ statements }
+
+# Boolean Values in C89
+#define TRUE 1
+#define FALSE 0
+
+#define BOOL int
+
+# Boolean Values in C99
+Provides _Bool type.
+Provides <stdbool.h>, can write 
+bool flag; /* same as _Bool flag */
